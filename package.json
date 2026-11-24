@@ -1,0 +1,26 @@
+{
+  "name": "obsidian-memos-bridge",
+  "version": "1.0.0",
+  "description": "Sync Memos (supports latest /api/memos & legacy /api/v1) to Obsidian with non-destructive partial updates and attachment auto-download.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "memos",
+    "sync"
+  ],
+  "author": "wymen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "0.20.1",
+    "obsidian": "latest",
+    "tslib": "2.6.2",
+    "typescript": "5.3.3"
+  }
+}
