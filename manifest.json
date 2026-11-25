@@ -1,7 +1,7 @@
 {
   "id": "memos-bridge",
   "name": "Memos Bridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.4.0",
   "description": "Sync your self-hosted Memos (supports latest /api/memos and legacy /api/v1) into app with attachment auto-download and non-destructive note updates.",
   "author": "wymen",
