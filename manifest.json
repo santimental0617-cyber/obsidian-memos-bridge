@@ -3,7 +3,7 @@
   "name": "Memos Bridge",
   "version": "1.0.0",
   "minAppVersion": "1.4.0",
-  "description": "Sync your self-hosted Memos (supports latest /api/memos and legacy /api/v1) into Obsidian with attachment auto-download and non-destructive note updates.",
+  "description": "Sync your self-hosted Memos (supports latest /api/memos and legacy /api/v1) into app with attachment auto-download and non-destructive note updates.",
   "author": "wymen",
   "authorUrl": "https://github.com/santimental0617-cyber",
   "isDesktopOnly": false
